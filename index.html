@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__navigation">
+            <a class="header__logo" href="/">
+                <svg class="header__logo-svg" width="184" height="55" viewBox="0 0 184 55">
+                    <path
+                        d="M36.7508 10.6928H26.2492L31.495 19.8594L36.7508 10.6928ZM24.9402 11.4608L19.6844 20.6275H30.186L24.9402 11.4608ZM43.3156 20.6275L38.0598 11.4608L32.814 20.6275H43.3156ZM32.814 22.1536L38.0598 31.3203L43.3156 22.1536H32.814ZM19.6844 22.1536L24.9402 31.3203L30.186 22.1536H19.6844ZM13.1196 32.0783H23.6213L18.3754 22.9217L13.1196 32.0783ZM49.8704 32.0783L44.6246 22.9217L39.3787 32.0783H49.8704ZM31.495 0L26.2492 9.16667H36.7508L31.495 0ZM44.6246 42.7711L49.8704 33.6144H39.3787L44.6246 42.7711ZM18.3754 42.7711L23.6213 33.6144H13.1196L18.3754 42.7711ZM6.56479 43.5392H17.0565L11.8106 34.3725L6.56479 43.5392ZM56.4352 43.5392L51.1894 34.3725L45.9335 43.5392H56.4352ZM45.9335 45.0653L51.1894 54.232L56.4352 45.0653H45.9335ZM32.814 45.0653L38.0598 54.232L43.3156 45.0653H32.814ZM11.8106 54.232L17.0565 45.0653H6.56479L11.8106 54.232ZM0 55H10.5017L5.24584 45.8333L0 55ZM26.2492 55H36.7508L31.495 45.8333L26.2492 55ZM39.3787 55H49.8704L44.6246 45.8333L39.3787 55ZM57.7542 45.8333L52.4983 55H63L57.7542 45.8333Z" />
+                    <path
+                        d="M75.104 15.03H77.348L80.748 23.598L84.182 15.03H86.46L82.244 25.332L86.868 36.246L95.606 14.86H98.19L87.956 39H85.848L80.782 27.066L75.682 39H73.608L63.408 14.86H65.958L74.73 36.246L79.32 25.332L75.104 15.03ZM97.8896 33.9C97.8896 32.812 98.2069 31.8713 98.8416 31.078C99.4762 30.262 100.349 29.6273 101.46 29.174C102.593 28.7207 103.896 28.494 105.37 28.494C106.231 28.494 107.126 28.5733 108.056 28.732C108.985 28.868 109.812 29.0607 110.538 29.31V27.814C110.538 26.318 110.096 25.128 109.212 24.244C108.328 23.36 107.104 22.918 105.54 22.918C104.61 22.918 103.681 23.0993 102.752 23.462C101.822 23.802 100.859 24.312 99.8616 24.992L98.9776 23.36C100.134 22.5667 101.267 21.9773 102.378 21.592C103.488 21.184 104.622 20.98 105.778 20.98C107.954 20.98 109.676 21.6033 110.946 22.85C112.215 24.0967 112.85 25.8193 112.85 28.018V36.212C112.85 36.824 113.133 37.1413 113.7 37.164V39C113.201 39.068 112.85 39.0907 112.646 39.068C112.079 39.0453 111.648 38.864 111.354 38.524C111.059 38.184 110.9 37.8213 110.878 37.436L110.844 36.144C110.05 37.164 109.019 37.9573 107.75 38.524C106.48 39.068 105.188 39.34 103.874 39.34C102.718 39.34 101.686 39.102 100.78 38.626C99.8729 38.1273 99.1589 37.47 98.6376 36.654C98.1389 35.8153 97.8896 34.8973 97.8896 33.9ZM109.756 35.26C110.277 34.648 110.538 34.0813 110.538 33.56V30.976C108.974 30.364 107.342 30.058 105.642 30.058C103.987 30.058 102.65 30.3867 101.63 31.044C100.61 31.7013 100.1 32.5967 100.1 33.73C100.1 34.7047 100.474 35.5887 101.222 36.382C101.992 37.1753 103.058 37.572 104.418 37.572C105.528 37.572 106.56 37.3567 107.512 36.926C108.486 36.4953 109.234 35.94 109.756 35.26ZM118.389 21.286L123.591 28.222L123.863 28.732L124.135 28.222L129.303 21.286H131.921L125.189 30.194L131.921 39H129.303L124.135 32.098L123.863 31.622L123.591 32.098L118.423 39H115.805L122.503 30.194L115.805 21.286H118.389ZM141.729 39.34C140.029 39.34 138.51 38.9207 137.173 38.082C135.858 37.2433 134.827 36.1327 134.079 34.75C133.331 33.3447 132.957 31.826 132.957 30.194C132.957 28.5393 133.331 27.0207 134.079 25.638C134.85 24.2327 135.892 23.1107 137.207 22.272C138.544 21.4107 140.052 20.98 141.729 20.98C143.429 20.98 144.936 21.4107 146.251 22.272C147.588 23.1107 148.631 24.2327 149.379 25.638C150.15 27.0207 150.535 28.5393 150.535 30.194C150.535 31.826 150.161 33.3447 149.413 34.75C148.665 36.1327 147.622 37.2433 146.285 38.082C144.97 38.9207 143.452 39.34 141.729 39.34ZM135.303 30.228C135.303 31.5427 135.586 32.744 136.153 33.832C136.742 34.8973 137.524 35.7473 138.499 36.382C139.474 36.994 140.55 37.3 141.729 37.3C142.908 37.3 143.984 36.9827 144.959 36.348C145.934 35.7133 146.716 34.852 147.305 33.764C147.894 32.676 148.189 31.4747 148.189 30.16C148.189 28.8453 147.894 27.644 147.305 26.556C146.716 25.468 145.934 24.6067 144.959 23.972C143.984 23.3373 142.908 23.02 141.729 23.02C140.573 23.02 139.508 23.3487 138.533 24.006C137.558 24.6407 136.776 25.502 136.187 26.59C135.598 27.678 135.303 28.8907 135.303 30.228ZM180.752 39H178.44V29.106C178.44 27.066 178.111 25.5587 177.454 24.584C176.796 23.5867 175.822 23.088 174.53 23.088C173.17 23.088 171.968 23.564 170.926 24.516C169.883 25.468 169.146 26.692 168.716 28.188V39H166.404V29.106C166.404 27.0207 166.075 25.502 165.418 24.55C164.783 23.5753 163.82 23.088 162.528 23.088C161.19 23.088 159.989 23.5527 158.924 24.482C157.881 25.4113 157.144 26.6353 156.714 28.154V39H154.402V21.286H156.51V25.298C157.235 23.938 158.187 22.884 159.366 22.136C160.544 21.3653 161.848 20.98 163.276 20.98C164.749 20.98 165.939 21.4107 166.846 22.272C167.752 23.1107 168.308 24.1987 168.512 25.536C170.144 22.4987 172.422 20.98 175.346 20.98C177.34 20.98 178.734 21.6827 179.528 23.088C180.344 24.4707 180.752 26.318 180.752 28.63V39Z" />
+                </svg>
+            </a>
+            <nav class="header__navigation-links">
+                <a href="/" class="header__navigation-link">Home</a>
+                <a href="/" class="header__navigation-link">About us</a>
+                <a href="/" class="header__navigation-link">Portfolio</a>
+                <a href="/" class="header__navigation-link">Features</a>
+                <a href="/" class="header__navigation-link">Blog</a>
+                <a href="/" class="header__navigation-link">Pricing</a>
+                <a href="/" class="header__navigation-link">Shortcodes</a>
+                <a href="/" class="header__navigation-link header__navigation-link_icon-margin">Contact</a>
+                <a href="/" class="header__navigation-link header__navigation-link_icon">
+                    <svg width="18" height="24" viewBox="0 0 18 24">
+                        <path
+                            d="M15 3H13.5C13.5 1.34 11.48 0 9 0C6.51 0 4.5 1.34 4.5 3H3C1.35 3 0 4.34 0 6V21C0 22.65 1.35 23.99 3 23.99H15C16.65 23.99 17.99 22.65 17.99 21V6C17.99 4.34 16.65 3 15 3ZM9 1.5C10.66 1.5 12 1.96 12 3H6C6 1.96 7.34 1.5 9 1.5ZM16.49 21C16.49 21.82 15.82 22.49 15 22.49H3C2.17 22.49 1.5 21.82 1.5 21V19.5H16.49V21ZM16.49 18H1.5V6C1.5 5.17 2.17 4.5 3 4.5H4.5V9H6V4.5H12V9H13.5V4.5H15C15.82 4.5 16.49 5.17 16.49 6V18Z" />
+                    </svg>
+                </a>
+                <a href="/" class="header__navigation-link header__navigation-link_icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M23.76 22.68L17.57 16.59C19.19 14.82 20.19 12.49 20.19 9.93C20.19 4.44 15.67 0 10.09 0C4.52 0 0 4.44 0 9.93C0 15.42 4.52 19.86 10.09 19.86C12.5 19.86 14.71 19.03 16.45 17.64L22.66 23.76C22.97 24.06 23.46 24.06 23.76 23.76C24.06 23.46 24.06 22.98 23.76 22.68ZM10.09 18.33C5.38 18.33 1.55 14.57 1.55 9.93C1.55 5.29 5.38 1.52 10.09 1.52C14.81 1.52 18.63 5.29 18.63 9.93C18.63 14.57 14.81 18.33 10.09 18.33Z" />
+                    </svg>
+                </a>
+            </nav>
+        </div>
+        <div class="header__slider">
+            <div class="header__slide">
+                <p class="header__slide-title">Unique and Modern Design</p>
+                <p class="header__slide-subtitle">Portfolio PSD Template</p>
+                <p class="header__slide-info">
+                    Nam liber tempor cum soluta nobis eleifend option congue nihil
+                    imperdiet doming id quod mazim placerat facer possim assum.
+                </p>
+                <button class="header__slide-btn">Get started</button>
+            </div>
+            <button class="header__slide-nav header__slide-nav_prev">
+                <svg width="40" height="73" viewBox="0 0 40 73">
+                    <path d="M38.03 72.98L0 36.5L38.03 0.0200195L40 2.02002L4.07 36.5L40 70.98L38.03 72.98Z" />
+                </svg>
+            </button>
+            <button class="header__slide-nav header__slide-nav_next">
+                <svg width="40" height="73" viewBox="0 0 40 73">
+                    <path d="M1.97 72.96L40 36.48L1.97 0L0 2L35.93 36.48L0 70.96L1.97 72.96Z" />
+                </svg>
+            </button>
+            <div class="header__pagination">
+                <button class="header__pagination-item"></button>
+                <button class="header__pagination-item"></button>
+                <button class="header__pagination-item"></button>
+                <button class="header__pagination-item"></button>
+                <button class="header__pagination-item"></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="services">
+            <div class="services__card">
+                <svg class="services__icon" width="48" height="48" viewBox="0 0 48 48">
+                    <path
+                        d="M46.6971 17.1135C46.08 16.5061 45.1004 16.5061 44.4931 17.1135L30.9257 30.671L11.8629 39.0759L8.92408 36.1371L17.3192 17.0645L30.8865 3.50694C31.4939 2.8898 31.4939 1.91021 30.8865 1.30286C30.2694 0.695514 29.2898 0.695514 28.6824 1.30286L14.7037 15.2718L0.51918 47.471L32.7184 33.2963L46.6971 19.3176C47.3045 18.7102 47.3045 17.7208 46.6971 17.1135ZM26.9388 27.889C27.2424 28.1829 27.6343 28.3396 28.0359 28.3396C28.4375 28.3396 28.8294 28.1829 29.1428 27.889L42.2008 14.8212C42.8082 14.2139 42.8082 13.2343 42.2008 12.6171C41.5837 12.0098 40.6041 12.0098 39.9967 12.6171L26.9388 25.6849C26.3314 26.2922 26.3314 27.2718 26.9388 27.889ZM23.5298 24.48C23.8335 24.7739 24.2253 24.9306 24.6269 24.9306C25.0286 24.9306 25.4204 24.7739 25.7241 24.48L38.7918 11.4122C39.3992 10.8049 39.3992 9.81551 38.7918 9.20817C38.1747 8.60082 37.1951 8.60082 36.5877 9.20817L23.5298 22.2661C22.9126 22.8735 22.9126 23.8629 23.5298 24.48ZM20.111 21.0612C20.4147 21.3649 20.8163 21.5216 21.218 21.5216C21.6196 21.5216 22.0114 21.3649 22.3151 21.0612L35.3829 8.00327C35.9902 7.39592 35.9902 6.40653 35.3829 5.79919C34.7755 5.19184 33.7861 5.19184 33.1788 5.79919L20.111 18.8571C19.5037 19.4645 19.5037 20.4539 20.111 21.0612Z" />
+                </svg>
+                <h3 class="services__title">Web & App Design</h3>
+                <p class="services__subtitle">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                    doming id quod mazim.</p>
+            </div>
+            <div class="services__card">
+                <svg class="services__icon" width="48" height="48" viewBox="0 0 44 40">
+                    <path
+                        d="M21.85 0.109985L0.410004 11.67L21.85 23.23L43.29 11.67L21.85 0.109985ZM21.85 26.96L4.4 17.55L0.410004 19.7L21.85 31.25L43.29 19.7L39.3 17.55L21.85 26.96ZM21.85 34.98L4.4 25.57L0.410004 27.72L21.85 39.28L43.29 27.72L39.3 25.57L21.85 34.98Z" />
+                </svg>
+
+
+                <h3 class="services__title">Development
+                </h3>
+                <p class="services__subtitle">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                    doming id quod mazim.</p>
+            </div>
+            <div class="services__card">
+                <svg class="services__icon" width="48" height="48" viewBox="0 0 44 44">
+                    <path
+                        d="M43.93 21.85C43.93 20.23 42.76 18.5 41.32 17.99C39.88 17.48 38.49 16.24 38.08 15.25C37.68 14.27 37.78 12.4 38.44 11.02C39.09 9.64001 38.69 7.59001 37.55 6.44001C36.4 5.30001 34.36 4.90001 32.98 5.56001C31.6 6.21001 29.73 6.32001 28.75 5.91001C27.76 5.51001 26.52 4.11001 26.01 2.67001C25.49 1.23001 23.76 0.0700073 22.14 0.0700073C20.52 0.0700073 18.79 1.23001 18.28 2.67001C17.77 4.11001 16.52 5.51001 15.54 5.91001C14.56 6.32001 12.69 6.21001 11.31 5.56001C9.92999 4.90001 7.87998 5.30001 6.73998 6.44001C5.58998 7.59001 5.18999 9.64001 5.84999 11.02C6.50998 12.4 6.60998 14.27 6.19999 15.25C5.79998 16.23 4.40999 17.48 2.96999 17.99C1.52999 18.5 0.359985 20.23 0.359985 21.85C0.359985 23.47 1.52999 25.2 2.96999 25.71C4.40999 26.22 5.79999 27.47 6.20999 28.45C6.60999 29.43 6.50998 31.3 5.84999 32.68C5.18999 34.06 5.58998 36.11 6.73998 37.26C7.87998 38.4 9.92999 38.8 11.31 38.14C12.69 37.49 14.56 37.38 15.54 37.79C16.52 38.2 17.77 39.59 18.28 41.03C18.79 42.47 20.52 43.63 22.14 43.63C23.76 43.63 25.49 42.47 26.01 41.03C26.52 39.59 27.76 38.2 28.74 37.79C29.73 37.38 31.6 37.49 32.98 38.14C34.36 38.8 36.4 38.4 37.55 37.26C38.69 36.11 39.09 34.06 38.44 32.68C37.78 31.3 37.67 29.43 38.08 28.45C38.48 27.47 39.88 26.22 41.32 25.71C42.76 25.2 43.93 23.47 43.93 21.85ZM22.14 29.84C17.72 29.84 14.15 26.27 14.15 21.86C14.15 17.44 17.72 13.87 22.14 13.87C26.55 13.87 30.13 17.44 30.13 21.86C30.13 26.27 26.55 29.84 22.14 29.84Z" />
+                </svg>
+
+                <h3 class="services__title">Customization
+                </h3>
+                <p class="services__subtitle">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                    doming id quod mazim.</p>
+            </div>
+            <div class="services__card">
+                <svg class="services__icon" width="52" height="48" viewBox="0 0 52 36">
+                    <path
+                        d="M8.99999 13.25C9.99999 11.19 12.47 9.64002 14.74 9.64002H40.95V7.98002C40.95 6.62002 39.84 5.50002 38.49 5.50002H27.67V4.06002C27.67 2.00002 26.02 0.330017 23.99 0.330017H17.7C16.72 0.330017 15.79 0.720017 15.09 1.43002C14.39 2.13002 14.01 3.06002 14.01 4.06002V5.50002H3.19999C1.83999 5.50002 0.73999 6.62002 0.73999 7.98002V30.15L8.99999 13.25ZM16.47 4.06002C16.47 3.73002 16.6 3.42002 16.83 3.18002C17.06 2.94002 17.37 2.82002 17.7 2.82002H23.99C24.67 2.82002 25.22 3.37002 25.22 4.06002V5.50002H16.47V4.06002ZM41.92 33.76C41.33 34.98 39.73 35.98 38.38 35.98H3.07999C1.72999 35.98 1.10999 34.98 1.70999 33.76L11.2 14.34C11.8 13.12 13.39 12.12 14.74 12.12H50.04C51.39 12.12 52.01 13.12 51.41 14.34L41.92 33.76Z" />
+                </svg>
+
+                <h3 class="services__title">Marketing</h3>
+                <p class="services__subtitle">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                    doming id quod mazim.</p>
+            </div>
+        </section>
+        <section class="waxom">
+            <div class="waxom__block-portfolio container">
+                <div class="waxom__portfolio-info">
+                    <h2 class="waxom__info-title">Waxom is Realization of your Ideas.</h2>
+                    <p class="waxom__info-text">Investigationes demonstraverunt lectores legere me lius quod ii
+                        legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem
+                        consuetudium.</p>
+                    <img class="waxom__info-img" src="img/browsers.jpg" alt="img">
+                </div>
+            </div>
+            <div class="waxom__block-thema">
+                <div class="waxom__block-thema__item container">
+                    <div class="waxom__thema-info">
+                        <h2 class="waxom__thema-title"><span class="waxom__title-waxom">Waxom </span> Multipurpose
+                            WordPress Theme
+                        </h2>
+                        <p class="waxom__thema-text">Don't Forget to Rate the Template. Thanks so much!
+                        </p>
+                    </div>
+                    <button class="waxom__thema-btn">Purchase Now
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="projects__block">
+                <h2 class="projects__titel">Our Latest Projects.
+                </h2>
+                <p class="projects__text">Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                    saepius.
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+                </p>
+                <button class="projects__btn projects__btn-item ">All</button>
+                <button class="projects__btn-item">Web Design</button>
+                <button class="projects__btn-item">Mobile app</button>
+                <button class="projects__btn-item">Illustration
+                </button>
+                <button class="projects__btn-item">Photography
+                </button>
+            </div>
+            <div class="project">
+                <div class="project-item">
+                    <img src="img/item1.jpg" alt="#">
+                    <div class="project-item__info">
+                        <h3 class="project-item__title">Claritas Etiam Processus</h3>
+                        <p class="project-item__text">Photography, Nature</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="img/item2.jpg" alt="#">
+                    <div class="project-item__info">
+                        <h3 class="project-item__title">Quam Nutamus Farum</h3>
+                        <p class="project-item__text">Graphic Design, Mock-Up</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="img/item3.jpg" alt="#">
+                    <div class="project-item__info">
+                        <h3 class="project-item__title">Usus Legentis Videntur</h3>
+                        <p class="project-item__text">Photography, Holiday</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="img/item4.jpg" alt="#">
+                    <div class="project-item__info">
+                        <h3 class="project-item__title">Quam Nutamus Farum</h3>
+                        <p class="project-item__text">Photography, Nature</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="img/item5.jpg" alt="#">
+                    <div class="project-item__info">
+                        <h3 class="project-item__title">Quam Nutamus Farum</h3>
+                        <p class="project-item__text">Graphic Design, Mock-Up</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="img/item6.jpg" alt="#">
+                    <div class="project-item__info">
+                        <h3 class="project-item__title">Usus Legentis Videntur</h3>
+                        <p class="project-item__text">Photography, Holiday</p>
+                    </div>
+                </div>
+            </div>
+            <button class="project__btn">Load more
+            </button>
+        </section>
+        <div class="video">
+            <video class="video__content" controls="" autoplay="" name="media" poster="img/bg_video_presentation.jpg">
+                <source src="video/Road - 57993.mp4" type="video/mp4">
+            </video>
+            <div class="video__info">
+                <a href="#"><svg class="video__info__play" width="100" height="100" viewBox="0 0 100 100" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="50" fill="black" fill-opacity="0.5" />
+                        <g clip-path="url(#clip0)">
+                            <path
+                                d="M44.93 66.8201C44.64 66.8201 44.34 66.7601 44.06 66.6301C43.34 66.2901 42.87 65.5601 42.87 64.7601V35.2401C42.87 34.4401 43.34 33.7101 44.06 33.3701C44.78 33.0301 45.64 33.1401 46.25 33.6501L63.97 48.4201C64.44 48.8101 64.71 49.3901 64.71 50.0001C64.71 50.6101 64.44 51.1901 63.97 51.5801L46.25 66.3401C45.88 66.6601 45.41 66.8201 44.93 66.8201ZM46.99 39.6301V60.3601L59.43 50.0001L46.99 39.6301ZM49.94 85.0001C44.07 85.0001 38.17 83.5401 32.83 80.5301C31.84 79.9701 31.49 78.7101 32.05 77.7201C32.6 76.7301 33.86 76.3801 34.85 76.9401C46.87 83.7001 62.08 81.6101 71.85 71.8501C83.89 59.8001 83.89 40.2001 71.85 28.1501C59.8 16.1001 40.2 16.1001 28.15 28.1501C16.1 40.2001 16.1 59.8001 28.15 71.8501C28.95 72.6501 28.95 73.9501 28.15 74.7601C27.35 75.5601 26.04 75.5601 25.24 74.7601C11.58 61.1001 11.58 38.8901 25.24 25.2401C38.89 11.5801 61.1 11.5801 74.76 25.2401C88.41 38.8901 88.41 61.1001 74.76 74.7601C68.03 81.4801 59.03 85.0001 49.94 85.0001Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="70" height="70" fill="white" transform="translate(15 15)" />
+                            </clipPath>
+                        </defs>
+                    </svg></a>
+                <h2 class="video__info__title">Waxom Video Presentation</h2>
+                <p class="video__info__text">Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                    saepius, qui sequitur
+                    mutationem consuetudium.
+                </p>
+                <p class="video__info__time"><time>03:26</time></p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
